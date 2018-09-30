@@ -98,7 +98,7 @@ class App extends Component {
   It requests to backend server for directions with weather info and 
   update state values according to response received from server*/
   onSubmit = (fromLatLng, toLatLng) => {
-    var url = new URL("https://myweather-api.herokuapp.com/");
+    var url = new URL("https://myweatherroute-api.herokuapp.com/");
     var params = {
       fromLat: fromLatLng.lat,
       fromLng: fromLatLng.lng,
