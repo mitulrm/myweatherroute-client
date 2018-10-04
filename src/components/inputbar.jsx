@@ -9,7 +9,7 @@ class InputBar extends Component {
   state = {
     from: "",
     to: "",
-    fromLatLnd: {},
+    fromLatLng: {},
     toLatLng: {}
   };
 

@@ -23,6 +23,7 @@ class MarkerWithInfo extends Component {
         weather={this.props.weather}
         onMouseOver={this.onToggleOpen}
         onMouseOut={this.onToggleOpen}
+		onClick={this.onToggleOpen}
       >
         {this.state.isOpen && (
           <InfoWindow onCloseClick={this.onToggleOpen}>
